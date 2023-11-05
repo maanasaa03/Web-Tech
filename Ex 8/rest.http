@@ -1,0 +1,28 @@
+GET http://localhost:3000/products
+
+### Create a product
+POST http://localhost:3000/products
+Content-Type: application/json
+
+{
+    "name" : "iPhone 14",
+    "price" : 1999
+}
+
+### Get a product by id
+GET http://localhost:3000/products/652e3d3d44574dcc50aa5262
+
+### Updata a product by id
+PATCH http://localhost:3000/products/652e3d3d44574dcc50aa5262
+Content-Type: application/json
+
+{
+  "price": 1199
+}
+
+
+### Delete a product by id
+DELETE http://localhost:3000/products/652e4afdeeb1f320cef9477f
+
+###
+GET http://localhost:3000/
