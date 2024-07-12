@@ -4,3 +4,5 @@ Our project is a cyber hygeine app designed to educate and
 equip users with tools to enhance their online security.
 
 Practicing good cyber hygeine is essential to protect personal and sensitive information.
+
+Provides features like authentication, password management and learning modules.
